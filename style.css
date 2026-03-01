@@ -85,6 +85,7 @@ nav a{
     border-radius: 5px;
     font-size: 14px;
     font-family: var(--font-family);
+    font-weight: 500;
 }
 
 .herosection .heroimage img{
