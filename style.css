@@ -7,8 +7,8 @@
 
 /* Root variables */
 :root {
-    --primary-color: #110820;
-    --secondary-color: rgb(0, 255, 0);
+    --primary-color: rgb(3, 3, 3);
+    --secondary-color: rgb(6, 187, 6);
     --text-color: #ecf0f1;
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --main-font: 3em;
