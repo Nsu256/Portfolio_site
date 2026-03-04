@@ -96,3 +96,10 @@ nav a{
     margin-top: 60px;
 }
 /*End of the Hero Section*/
+
+/* Start of the About Section */
+.aboutsection{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary-color);
+}
