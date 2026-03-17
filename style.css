@@ -105,5 +105,13 @@ nav a{
 .aboutsection{
     width: 100%;
     height: 100vh;
-    background-color: var(--secondary-color);
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.herocontent{
+    width: 95%;
+    height: 100%;
+    background-color: red;
 }
