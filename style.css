@@ -115,3 +115,20 @@ nav a{
     height: 100%;
     background-color: red;
 }
+
+.herocontent h1{
+    font-size: var(--main-font);
+    font-family: var(--font-family);
+    margin-top: 20px;
+}
+
+.aboutinfoone p{
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+.aboutinfotwo{
+    display: flex;
+    justify-content: space-around;
+}
