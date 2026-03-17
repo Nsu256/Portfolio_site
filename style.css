@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body{
+    width: 100%;
+}
+
 /* Root variables */
 :root {
     --primary-color: rgb(3, 3, 3);
