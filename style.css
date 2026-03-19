@@ -105,7 +105,7 @@ nav a{
 .aboutsection{
     width: 100%;
     min-height: 100%;
-    background-color: greenyellow;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
 }
@@ -113,19 +113,23 @@ nav a{
 .herocontent{
     width: 95%;
     height: 100%;
-    background-color: red;
+    background-color: var(--primary-color);
 }
 
 .herocontent h1{
     font-size: var(--main-font);
     font-family: var(--font-family);
     margin-top: 20px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-align: center;
 }
 
 .aboutinfoone p{
     font-size: var(--font-size);
     font-family: var(--font-family);
     font-weight: 300;
+    color: var(--text-color);
 }
 
 .aboutinfotwo{
