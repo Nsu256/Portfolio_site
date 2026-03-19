@@ -11,7 +11,7 @@ body{
 
 /* Root variables */
 :root {
-    --primary-color: rgb(3, 3, 3);
+    --primary-color: rgb(3, 28, 37);
     --secondary-color: rgb(6, 187, 6);
     --text-color: #ecf0f1;
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -123,6 +123,7 @@ nav a{
     color: var(--secondary-color);
     font-weight: 600;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .aboutinfoone p{
@@ -163,10 +164,11 @@ nav a{
 .aboutcard{
     width: 300px;
     height: 100px;
-    background-color: pink;
+    background-color: var(--primary-color);
     margin-top: 20px;
     display: flex;
     align-items: center;
+    box-shadow: 0px 0px 10px rgb(2, 14, 19);
 }
 
 .aboutcard h2{
