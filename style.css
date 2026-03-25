@@ -220,10 +220,21 @@ nav a{
     background-color: purple;
 }
 
+.skillinformation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--text-color);
+}
+
 .skilllane{
     width: 100%;
     height: 20px;
     background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 .skillinforight{
