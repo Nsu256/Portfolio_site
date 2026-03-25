@@ -46,6 +46,7 @@ nav a{
 .navigationsocials i{
     font-size: 30px;
     color: var(--primary-color);
+    margin-right: 10px;
 }
 /* End of the Navigation bar */
 
@@ -97,6 +98,10 @@ nav a{
     border: 2px solid var(--secondary-color);
     color: var(--text-color);
     margin-left: 20px;
+}
+
+.herobtn .btntwo i{
+    margin-left: 10px;
 }
 
 .herosection .heroimage img{
@@ -237,6 +242,12 @@ nav a{
     font-size: var(--font-size);
     color: var(--text-color);
     font-weight: 400;
+}
+
+.skillinformation i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: var(--text-color);
 }
 
 .skilllane{
