@@ -191,10 +191,11 @@ nav a{
 /* Start of the Skills Section */
 .skillsection{
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     background-color: red;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .skillcontent{
@@ -223,7 +224,7 @@ nav a{
 .skillinformation{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: var(--font-family);
     font-size: var(--font-size);
     color: var(--text-color);
@@ -261,4 +262,25 @@ nav a{
 .skillinforight{
     width: 49%;
     background-color: orange;
+}
+
+.skillinforightone .skilllanefill{
+    width: 90%;
+    height: 100%;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.skillinforighttwo .skilllanefill{
+    width: 95%;
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.skillinforightthree .skilllanefill{
+    width: 85%;
+    height: 100%;
+    background-color: cyan;
+    border-radius: 10px;
 }
