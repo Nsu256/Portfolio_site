@@ -9,6 +9,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100%;
 }
@@ -281,6 +285,13 @@ nav a{
     border-radius: 10px;
 }
 
+.skillinfoleftfour .skilllanefill{
+    width: 70%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
 .skillinforight{
     width: 49%;
     background-color: var(--primary-color);
@@ -301,6 +312,13 @@ nav a{
 }
 
 .skillinforightthree .skilllanefill{
+    width: 70%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.skillinforightfour .skilllanefill{
     width: 70%;
     height: 100%;
     background-color: var(--secondary-color);
