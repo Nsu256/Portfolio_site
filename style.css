@@ -209,3 +209,8 @@ nav a{
     color: var(--secondary-color);
     text-align: center;
 }
+
+.skillinfo{
+    display: flex;
+    justify-content: space-between;
+}
