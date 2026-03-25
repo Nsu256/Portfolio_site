@@ -15,9 +15,9 @@ body{
 
 /* Root variables */
 :root {
-    --primary-color: rgb(3, 28, 37);
-    --secondary-color: rgb(6, 187, 6);
-    --text-color: #ecf0f1;
+    --primary-color: #0F172A;
+    --secondary-color: #61DAFB;
+    --text-color: #F1F5F9;
     --font-family: "Poppins", sans-serif;
     --main-font: 3em;
     --font-size: 1.25em;
@@ -26,7 +26,7 @@ body{
 /* Beginning of the navigation bar */
 header{
     width: 100%;
-    height: 50px;
+    height: 60px;
     display: flex;
     background-color: var(--text-color);
     align-items: center;
@@ -61,7 +61,7 @@ nav a{
 }
 
 .herosection .heroinfo{
-    margin-top: 200px;
+    margin-top: 120px;
     font-family: var(--font-family);
     color: var(--text-color);
 }
@@ -86,11 +86,12 @@ nav a{
     width: 200px;
     padding: 10px 20px;
     background-color: var(--secondary-color);
-    color: var(--text-color);
+    color: var(--primary-color);
     border: none;
     border-radius: 5px;
     font-size: 14px;
     font-family: var(--font-family);
+    font-weight: 600;
 }
 
 .herobtn .btntwo{
@@ -108,7 +109,7 @@ nav a{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: var(--secondary-color);
     margin-top: 100px;
 }
 /*End of the Hero Section*/
@@ -148,7 +149,7 @@ nav a{
 
 .aboutinfotwo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -177,7 +178,8 @@ nav a{
 .aboutcard{
     width: 300px;
     height: 100px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -187,17 +189,17 @@ nav a{
 .aboutcard h2{
     font-family: var(--font-family);
     font-size: var(--main-font);
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 20px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .aboutcard p{
     font-family: var(--font-family);
     font-size: var(--font-size);
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 20px;
-    color: var(--text-color);
+    color: var(--primary-color);
 }
 /* End of the About Section */
 
@@ -261,21 +263,21 @@ nav a{
 .skillinfoleftone .skilllanefill{
     width: 95%;
     height: 100%;
-    background-color: green;
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
 .skillinfolefttwo .skilllanefill{
     width: 85%;
     height: 100%;
-    background-color: orange;
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
 .skillinfoleftthree .skilllanefill{
-    width: 90%;
+    width: 30%;
     height: 100%;
-    background-color: red;
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
@@ -285,23 +287,23 @@ nav a{
 }
 
 .skillinforightone .skilllanefill{
-    width: 90%;
+    width: 30%;
     height: 100%;
-    background-color: red;
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
 .skillinforighttwo .skilllanefill{
-    width: 95%;
+    width: 80%;
     height: 100%;
-    background-color: green;
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
 .skillinforightthree .skilllanefill{
-    width: 85%;
+    width: 70%;
     height: 100%;
-    background-color: cyan;
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 /* End of the Skills Section */
