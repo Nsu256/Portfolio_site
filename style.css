@@ -228,6 +228,7 @@ nav a{
     font-family: var(--font-family);
     font-size: var(--font-size);
     color: var(--text-color);
+    font-weight: 400;
 }
 
 .skilllane{
@@ -284,3 +285,4 @@ nav a{
     background-color: cyan;
     border-radius: 10px;
 }
+/* End of the Skills Section */
