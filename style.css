@@ -202,3 +202,10 @@ nav a{
     height: 100%;
     background-color: blue;
 }
+
+.skillcontent h1{
+    font-family: var(--font-family);
+    font-size: var(--main-font);
+    color: var(--secondary-color);
+    text-align: center;
+}
