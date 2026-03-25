@@ -187,3 +187,18 @@ nav a{
     color: var(--text-color);
 }
 /* End of the About Section */
+
+/* Start of the Skills Section */
+.skillsection{
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.skillcontent{
+    width: 95%;
+    height: 100%;
+    background-color: blue;
+}
