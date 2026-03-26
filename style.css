@@ -332,3 +332,13 @@ nav a{
     border-radius: 10px;
 }
 /* End of the Skills Section */
+
+/* Start of the Experience Section */
+.experiencesection{
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
