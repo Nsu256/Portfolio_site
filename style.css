@@ -400,3 +400,21 @@ nav a{
     font-size: var(--font-size);
     color: var(--text-color);
 }
+
+.experincecardbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.experincecardbtn button{
+    width: 120px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    margin-top: 5px;
+}
+/* End of the Experience Section */
