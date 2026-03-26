@@ -340,5 +340,24 @@ nav a{
     background-color: red;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.experiencecontent{
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+}
+
+.experiencecontent h1{
+    font-family: var(--font-family);
+    font-size: var(--main-font);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.experiencecontent p{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--text-color);
+    text-align: center;
 }
