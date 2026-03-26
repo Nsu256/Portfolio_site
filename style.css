@@ -368,8 +368,14 @@ nav a{
 }
 
 .experiencecard{
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 420px;
     background-color: purple;
     border-radius: 10px;
+}
+
+.experiencecardimage img{
+    width: 100%;
+    height: 200px;
+    background-color: pink;
 }
