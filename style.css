@@ -390,7 +390,12 @@ nav a{
     border-top-right-radius: 10px;
 }
 
-.experiencecard p{
+.experiencecardinfor{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.experiencecardinfor p{
     font-family: var(--font-family);
     font-size: var(--font-size);
     color: var(--text-color);
