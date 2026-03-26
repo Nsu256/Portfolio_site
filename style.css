@@ -70,13 +70,20 @@ nav a{
     color: var(--text-color);
 }
 
+.herosection .heroinfo h3{
+    font-size: 1.25em;
+    color: var(--text-color);
+}
+
 .herosection .heroinfo h1{
     font-size: var(--main-font);
+    color: var(--secondary-color);
 }
 
 .herosection .heroinfo h2{
     font-size: 2em;
     margin: 15px 0;
+    color: var(--secondary-color);
 }
 
 .herosection .heroinfo p{
