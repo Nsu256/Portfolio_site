@@ -355,7 +355,7 @@ nav a{
     text-align: center;
 }
 
-.experiencecontent p{
+.experiencecontent h3{
     font-family: var(--font-family);
     font-size: var(--font-size);
     color: var(--text-color);
@@ -374,8 +374,24 @@ nav a{
     border-radius: 10px;
 }
 
+.experiencecardimage{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .experiencecardimage img{
     width: 100%;
     height: 200px;
     background-color: pink;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.experiencecard p{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--text-color);
 }
