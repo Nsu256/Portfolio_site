@@ -399,6 +399,13 @@ nav a{
     margin-left: 10px;
 }
 
+.experiencecardinfor h2{
+    font-size: var(--font-size);
+    color: var(--text-color);
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
 .experiencecardinfor p{
     font-family: var(--font-family);
     font-size: var(--font-size);
