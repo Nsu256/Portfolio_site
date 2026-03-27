@@ -375,6 +375,7 @@ nav a{
     background-color: var(--primary-color);
     border-radius: 10px;
     margin-top: 20px;
+    box-shadow: 0px 0px 10px var(--secondary-color);
 }
 
 .experiencecardimage{
