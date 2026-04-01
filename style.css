@@ -429,3 +429,18 @@ nav a{
     margin-top: 5px;
 }
 /* End of the Experience Section */
+
+/* Start of the News Section */
+.newsection{
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.newscontent{
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+}
