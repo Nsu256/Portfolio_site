@@ -444,3 +444,18 @@ nav a{
     height: 100%;
     background-color: blue;
 }
+
+.newscontent h1{
+    font-family: var(--font-family);
+    font-size: var(--main-font);
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.newscontent p{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--text-color);
+    text-align: center;
+}
