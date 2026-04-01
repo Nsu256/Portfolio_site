@@ -468,4 +468,26 @@ nav a{
     height: 60px;
     background-color: pink;
     margin: 10px 80px;
+    display: flex;
 }
+
+.newsinput input{
+    width: 80%;
+    height: 100%;
+    background-color: purple;
+    padding: 10px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--text-color);
+}
+
+.newsinput button{
+    width: 20%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+/* End of the News Section */
