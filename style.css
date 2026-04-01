@@ -441,8 +441,11 @@ nav a{
 
 .newscontent{
     width: 80%;
-    height: 100%;
+    height: 50vh;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .newscontent h1{
@@ -458,4 +461,11 @@ nav a{
     font-size: var(--font-size);
     color: var(--text-color);
     text-align: center;
+}
+
+.newsinput{
+    width: 80%;
+    height: 60px;
+    background-color: pink;
+    margin: 10px 80px;
 }
