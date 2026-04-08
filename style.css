@@ -493,3 +493,18 @@ nav a{
     font-weight: 600;
 }
 /* End of the News Section */
+
+/* Start of the Services Section */
+.servicessection{
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.servicescontent{
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+}
