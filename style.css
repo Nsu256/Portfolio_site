@@ -522,3 +522,21 @@ nav a{
     color: var(--text-color);
     text-align: center;
 }
+
+.topservicecards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.servicecards{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+}
+
+.bottomservicecards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
