@@ -530,9 +530,21 @@ nav a{
 }
 
 .servicecards{
-    width: 500px;
-    height: 500px;
+    width: 580px;
+    height: 350px;
     background-color: pink;
+}
+
+.cardimage{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.cardinfo h2{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    margin-top: 30px;
 }
 
 .bottomservicecards{
