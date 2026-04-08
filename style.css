@@ -557,6 +557,8 @@ nav a{
     font-family: var(--font-family);
     font-size: var(--font-size);
     margin-top: 20px;
+    color: var(--text-color);
+    font-weight: 600;
 }
 
 .servicecards p{
