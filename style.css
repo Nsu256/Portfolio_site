@@ -548,11 +548,13 @@ nav a{
     width: 100px;
     height: 100px;
     background-color: var(--text-color);
+    display: grid;
+    place-items: center;
 }
 
-.cardimage img{
-    width: 100%;
-    height: 100%;
+.cardimage i{
+    font-size: 60px;
+    color: green;
 }
 
 .cardinfo h2{
